@@ -7,15 +7,13 @@ body {
 .header {
   display: flex;
   background-color: #37517e;
-  gap: 10%;
-  padding: 0% 6% 0% 6%;
+  /* gap: 10%; */
   height: 10vh;
   align-items: center;
   position: sticky;
   top: 0%;
   z-index: 5;
 }
-
 .header h1 {
   font-size: 30px;
   text-align: center;
@@ -24,8 +22,8 @@ body {
   text-transform: uppercase;
   cursor: pointer;
   font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 30px;
 }
-
 .header .logo-head {
   display: flex;
   padding-right: 30px;
@@ -33,6 +31,7 @@ body {
 .header .left {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 .header .left #options {
   border: none;
@@ -78,10 +77,13 @@ body {
 @media only screen and (max-width: 700px) {
   body {
     flex-wrap: wrap;
+    width: fit-content;
+    margin: 0;
   }
   .header {
     justify-content: space-between;
-    padding: 0 10px;
+    width: 100%;
+    margin: 0;
   }
   .header .left #anchor-head,
   #options {

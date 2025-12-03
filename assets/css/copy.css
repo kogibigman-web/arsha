@@ -22,8 +22,11 @@ header a {
 html {
   scroll-behavior: smooth;
 }
-
-/* Style the floating back-to-top button */
+@media only screen and (max-width: 700px){
+  
+}
+  
+}
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -81,20 +84,6 @@ html {
   margin-right: 80px;
   border-radius: 30px;
   border: solid 5px black;
-  animation-delay: 0.02;
-  animation-name: slidein;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-direction: alternate-reverse;
-  animation-timing-function: ease-out;
-}
-@keyframes slidein {
-  from {
-    transform: translateX(10px);
-  }
-  to {
-    transform: translateX(40px);
-  }
 }
 
 .about {

@@ -1,4 +1,4 @@
-BEST SKILL AND WHY
+<!-- BEST SKILL AND WHY
 
 Starting with there is no such thing as best skill. what makes your skill the your skill a best skil depends on what you do(Passion, goal, ambition and commitment)
 
@@ -36,8 +36,27 @@ Note: Raise your finger if you have a point.... Lets Go....
 If you have 4 fingers up there is a 99% chance of success, If you have 3-2 fingers up you have 80-50% chance of success and also 50-20% of failure, if u have 0-1 finger up then i will not give you a %(percentage)chance of success or failure but just suggest not to go into that field or skill.
 
 So Gentlemen, with this Summarisation Teaching of the day 3 webinar i will like to say a big thank you to the moderators of this webinar for the priviledge to speak to the Community. One LOVE.
-I am KOGI RYKER SUPERIOR aka BILLIONAIRE-FASHION-TECHIE.
+I am KOGI RYKER SUPERIOR aka BILLIONAIRE-FASHION-TECHIE. -->
 
-              javasript
+              <!-- javasript
 
-Mathematical operations:- addition+, subtraction-, division/, multiplication\*, .raiseToPower**, percentage(no sign for it)
+Mathematical operations:- addition+, subtraction-, division/, multiplication\*, .raiseToPower\*\*, percentage(no sign for it)
+
+=== is not just the value but the type of data
+
+        conditional expressions
+
+they are cretaed using conditional operators that compares 2 or more value to give either a true or false result
+equals too is not = but ==. modules checks if there is a reminder so it checks if its an even number. not equals too !=. equals too that checks not just the value but (Castro44@@@) the kind that checks data types is not = but is === .
+concantination:- it is joining 2 or more data types together the symbol is +.
+
+        Logical Statement:-
+
+it is the valuation of two or more conditional statements and we do that using thlogical operators there are two logical operators whoch are 'or','and'
+and is represented as && or| r says that if the function is there one should be met but and says that the two conditions should be met
+
+assignment: create a form for a scholarship program, the form should concist of age,name,and level, email, write a condition that if level is = or > than 200 and age 18 the form shoukd say registration successful, if not it should specify what went wrong(age is less than 18 or level is not up too 200). -->
+
+                      functions
+
+function declaration- you can use it to call a name or
