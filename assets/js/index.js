@@ -58,4 +58,3 @@ if (number >= 17) {
   console.log("Number is Positive");
 }
 
-
