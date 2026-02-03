@@ -47,14 +47,4 @@ if (number > 0) {
   console.log("Number is not Positive");
 }
 
-let numb = 20;
-if (number >= 17) {
-  if (number % 2 === 0) {
-    console.log("positive Odd Number");
-  } else {
-    console.log("Positive Even Number");
-  }
-} else {
-  console.log("Number is Positive");
-}
 

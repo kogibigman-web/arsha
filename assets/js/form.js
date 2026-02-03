@@ -102,16 +102,58 @@ console.log(calculate(10, 5, "subtract"));
 console.log(calculate(10, 5, "divide"));
 console.log(calculate(10, 5, "multiply"));
 
-function introduce(name, callback) {
-  console.log(`My name is ${name}.`);
-  callback();
-}
-function learningMessage() {
-  console.log("I am excited to learn JavaScript!");
-}
+// function introduce(name, callback) {
+//   console.log(`My name is ${name}.`);
+//   callback();
+// }
+// function learningMessage() {
+//   console.log("I am excited to learn JavaScript!");
+// }
 
-introduce("Ryker", learningMessage);
+// introduce("Ryker", learningMessage);
 
-for (let i = 2, <= 20, i += 2) {
-  console.log(i)
-}
+// //for (let i = 2, <= 20, i += 2) {
+//   console.log(i)
+// }
+let state = "Rivers state";
+console.log(state.length);
+console.log(state.toUpperCase())
+console.log(state.toLowerCase())
+console.log(state.charAt(4))
+console.log(state.charCodeAt(2))
+console.log(state.at(-1))
+console.log(state.slice(0, 6))
+console.log(state.substring(0, 6))
+let concat = state.concat(" ", "Govt")
+console.log(concat)
+let pwd = (" 1237 ")
+console.log(state.trim())
+const react = "ha";
+console.log(react.repeat(5))
+const greetings = "Hello world"
+const replace = greetings.replace("world", "james")
+console.log(replace)
+let email = "james@gmail.com"
+let check = email.includes("@")
+console.log(check)
+let string = "university"
+let statement = "This is my house i love my house"
+console.log(statement.split(" "))
+let num = 50;
+num = num.toString()
+console.log(num)
+console.log(typeof num)
+let text = "javaScript is sweet"
+console.log(text.startsWith("java"))
+console.log(text.startsWith("script"))
+let text2 = "file.pdf";
+console.log(text2.endsWith(".pdf"));
+console.log(text2.endsWith(".doc"));
+let ind = "I love JavaScript";
+console.log(ind.indexOf("love"));
+console.log(ind.indexOf("Python"));
+let scrop = "I love JavaScript";
+console.log(scrop.indexOf("love"));
+console.log(scrop.indexOf("Python"));
+let ryk = "hello world hello";
+console.log(ryk.lastIndexOf("hello"));

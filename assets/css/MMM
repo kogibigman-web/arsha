@@ -60,3 +60,26 @@ assignment: create a form for a scholarship program, the form should concist of 
                       functions
 
 function declaration- you can use it to call a name or
+
+                        Methods
+
+A method is used to manipulate strings
+length Counts total characters "Hello".length 5
+toUpperCase() Converts to CAPITAL letters "hello".toUpperCase() "HELLO"
+toLowerCase() Converts to small letters "HELLO".toLowerCase() "hello"
+charCodeAt() Gets Unicode number of a character "A".charCodeAt(0) 65
+slice() Cuts part of a string "JavaScript".slice(0,4) "Java"
+substring() Cuts part (no negative index) "JavaScript".substring(4,10) "Script"
+concat() Joins strings "Hello ".concat("World") "Hello World"
+trim() Removes spaces (both sides) " hi ".trim() "hi"
+trimStart() Removes space from start " hi".trimStart() "hi"
+trimEnd() Removes space from end "hi ".trimEnd() "hi"
+repeat() Repeats a string "Hi".repeat(3) "HiHiHi"
+replace() Replaces text "I love JS".replace("JS","Python") "I love Python"
+includes() Checks if word exists "Hello world".includes("world") true
+split() Converts string to array "a,b,c".split(",") ["a","b","c"]
+toString() Converts value to string (100).toString() "100"
+startsWith() Beginning of string true / false
+endsWith() End of string true / false
+indexOf() First occurrence index or -1
+lastIndexOf() Last occurrence index or -1
